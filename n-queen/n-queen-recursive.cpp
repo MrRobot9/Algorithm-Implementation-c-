@@ -38,7 +38,8 @@ void printsol()
 int empty(int i)
 {
 	int j=0;
-	while((t[i]!=t[j])&&(abs(t[i]-t[j])!=(i-j))&&j<n)j++;
+	while((t[i]!=t[j])&&(abs(t[i]-t[j])!=(i-j))&&j<n)
+		j++;
 	return i==j?1:0;
 }
 
